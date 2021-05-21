@@ -1,4 +1,4 @@
-CREATE VIEW [dbo].[RaceCard-view]
+﻿CREATE VIEW [dbo].[RaceCard-view]
 AS
 SELECT 
 
