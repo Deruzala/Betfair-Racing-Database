@@ -4,10 +4,6 @@ An SQL Server Horse Racing database project for the Betfair Exchange
 
 The Betfair Racing Database is designed to store racing data from the `win`, `place` and `other_place` markets
 
-The database stores schedule and race informmation by Normal Form Rules to save space and strengthen data integrity with a Records table to store betting records for analysis.  Common functions such as distance conversion and In-Play price movements are included
-
-
-
 Outline of the [Database Design](https://github.com/Deruzala/Betfair-Racing-Database/wiki/Database-Design)
 
 ***
