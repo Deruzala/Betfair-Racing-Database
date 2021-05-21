@@ -1,0 +1,7 @@
+﻿CREATE TABLE [dbo].[jockey] (
+    [ID]   BIGINT        IDENTITY (1, 1) NOT NULL,
+    [Name] VARCHAR (200) NOT NULL,
+    CONSTRAINT [PK_jockey_ID] PRIMARY KEY CLUSTERED ([ID] ASC),
+    CONSTRAINT [ix_Jockey_Name] UNIQUE NONCLUSTERED ([Name] ASC)
+);
+

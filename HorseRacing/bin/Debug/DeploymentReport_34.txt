@@ -1,0 +1,57 @@
+﻿** Highlights
+     Tables that will be rebuilt
+       None
+     Clustered indexes that will be dropped
+       None
+     Clustered indexes that will be created
+       None
+     Possible data issues
+       None
+
+** User actions
+     Create
+       [dbo].[bid] (Table)
+       [dbo].[country] (Table)
+       [dbo].[course] (Table)
+       [dbo].[distance] (Table)
+       [dbo].[going] (Table)
+       [dbo].[headgear] (Table)
+       [dbo].[horse] (Table)
+       [dbo].[jockey] (Table)
+       [dbo].[OtherPlace] (Table)
+       [dbo].[outcome] (Table)
+       [dbo].[PlacePrice] (Table)
+       [dbo].[RaceCard] (Table)
+       [dbo].[racetype] (Table)
+       [dbo].[Records] (Table)
+       [dbo].[system] (Table)
+       [dbo].[tick_equivalence] (Table)
+       [dbo].[trainer] (Table)
+       [dbo].[DF__distance__Meters__25869641] (Default Constraint)
+       [dbo].[DF__distance__Furlon__267ABA7A] (Default Constraint)
+       [dbo].[FK_OtherPlace_Racecard] (Foreign Key)
+       [dbo].[FK_PlacePrice_RaceCard] (Foreign Key)
+       [dbo].[FK_RaceCard_country] (Foreign Key)
+       [dbo].[FK_RaceCard_course] (Foreign Key)
+       [dbo].[FK_RaceCard_distance] (Foreign Key)
+       [dbo].[FK_RaceCard_going] (Foreign Key)
+       [dbo].[FK_RaceCard_headgear] (Foreign Key)
+       [dbo].[FK_RaceCard_horse] (Foreign Key)
+       [dbo].[FK_RaceCard_jockey] (Foreign Key)
+       [dbo].[FK_RaceCard_trainer] (Foreign Key)
+       [dbo].[FK_RaceCard_racetype] (Foreign Key)
+       [dbo].[FK_Records_bid] (Foreign Key)
+       [dbo].[FK_Records_outcome] (Foreign Key)
+       [dbo].[FK_Records_Racecard] (Foreign Key)
+       [dbo].[FK_Records_system] (Foreign Key)
+       [dbo].[Place-view] (View)
+       [dbo].[fn_ConvertDistanceStringToMeters] (Function)
+       [dbo].[fn_ConvertStonesAndPoundsStringToKgs] (Function)
+       [dbo].[fn_GetAvgTickDrop] (Function)
+       [dbo].[fn_WinningDistanceStringToMeters] (Function)
+       [dbo].[TR_INSTEADOFINSERT_distance] (Trigger)
+       [dbo].[TR_INSTEADOFUPDATE_distance] (Trigger)
+       [dbo].[RaceCard-view] (View)
+       [dbo].[distance].[MS_SSMA_SOURCE] (Extended Property)
+
+** Supporting actions

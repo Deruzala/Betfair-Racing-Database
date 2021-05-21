@@ -1,0 +1,15 @@
+C:\Users\aaron\Documents\Desktop\HorseRacing\HorseRacing\bin\Debug\HorseRacing.dacpac
+C:\Users\aaron\Documents\Desktop\HorseRacing\HorseRacing\bin\Debug\HorseRacing.dll
+C:\Users\aaron\Documents\Desktop\HorseRacing\HorseRacing\bin\Debug\HorseRacing.pdb
+C:\Users\aaron\Documents\Desktop\HorseRacing\HorseRacing\obj\Debug\HorseRacing.sqlprojAssemblyReference.cache
+C:\Users\aaron\Documents\Desktop\HorseRacing\HorseRacing\obj\Debug\Model.xml
+C:\Users\aaron\Documents\Desktop\HorseRacing\HorseRacing\obj\Debug\refactor.xml
+C:\Users\aaron\Documents\Desktop\HorseRacing\HorseRacing\obj\Debug\postdeploy.sql
+C:\Users\aaron\Documents\Desktop\HorseRacing\HorseRacing\obj\Debug\predeploy.sql
+C:\Users\aaron\Documents\Desktop\HorseRacing\HorseRacing\obj\Debug\HorseRacing.dll
+C:\Users\aaron\Documents\Desktop\HorseRacing\HorseRacing\obj\Debug\HorseRacing.pdb
+C:\Users\aaron\source\repos\HorseRacing\HorseRacing\bin\Debug\HorseRacing.dacpac
+C:\Users\aaron\source\repos\HorseRacing\HorseRacing\bin\Debug\HorseRacing.dll
+C:\Users\aaron\source\repos\HorseRacing\HorseRacing\bin\Debug\HorseRacing.pdb
+C:\Users\aaron\source\repos\HorseRacing\HorseRacing\obj\Debug\HorseRacing.dll
+C:\Users\aaron\source\repos\HorseRacing\HorseRacing\obj\Debug\HorseRacing.pdb

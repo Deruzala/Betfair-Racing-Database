@@ -1,0 +1,15 @@
+{
+  "version": "0.2.1",
+  "tasks": [
+    {
+      "taskLabel": "task-HorseRacing",
+      "appliesTo": "/",
+      "type": "launch"
+    },
+    {
+      "taskLabel": "task-dbo.country.data",
+      "appliesTo": "dbo.country.data.sql",
+      "type": "launch"
+    }
+  ]
+}
