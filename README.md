@@ -24,6 +24,7 @@ For installation of SQL Server and SQL Server Management Studio
 Add the `Data storage and processing` package
 
 Clone the repository, build and publish the solution
+#
 
 Documentation, resources and Betfair api wrappers in the [Wiki](https://github.com/Deruzala/Betfair-Racing-Database/wiki)
 
