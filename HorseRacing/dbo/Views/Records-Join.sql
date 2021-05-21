@@ -1,4 +1,4 @@
-CREATE VIEW [dbo].[Records-Join]
+﻿CREATE VIEW [dbo].[Records-Join]
 AS 
 
 SELECT 
