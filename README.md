@@ -19,7 +19,7 @@ For installation of SQL Server and SQL Server Management Studio see
 
 # Setup and api integration
 
-Clone the repository and build the solution
+Clone the repository, build and publish the solution
 
 Popular Betfair api wrappers are linked in the [Wiki](https://github.com/Deruzala/Betfair-Racing-Database/wiki)
 
