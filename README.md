@@ -23,7 +23,7 @@ Clone the repository, build and publish the solution
 
 Popular Betfair api wrappers are linked in the [Wiki](https://github.com/Deruzala/Betfair-Racing-Database/wiki)
 
-Comments on data elements, columns task scheduling and api endpoints in [dbo.RaceCard](https://github.com/Deruzala/Betfair-Racing-Database/blob/main/HorseRacing/dbo/Tables/RaceCard.sql)
+Comments on data elements, columns, task scheduling and api endpoints in [dbo.RaceCard](https://github.com/Deruzala/Betfair-Racing-Database/blob/main/HorseRacing/dbo/Tables/RaceCard.sql)
 
 
 
