@@ -1,15 +1,15 @@
 # Betfair Racing Database
 
-An SQL Server Horse Racing database project for the Betfair Exchange
+SQL Server Horse Racing database project for the Betfair Exchange
 
-Database designed to store racing data from `win`, `place` and `other_place` markets
+Database stores race schedule, price and bet outcome data across `win`, `place` and `other_place` markets
 
-Outline of the [Database Design](https://github.com/Deruzala/Betfair-Racing-Database/wiki/Database-Design)
+[Database Design](https://github.com/Deruzala/Betfair-Racing-Database/wiki/Database-Design)
 
 ***
 # Installation
 
-For installation of SQL Server and SQL Server Management Studio see
+For installation of SQL Server and SQL Server Management Studio
 
 [Install Microsoft SQL Server 2019](https://www.microsoft.com/en-gb/sql-server/sql-server-downloads)
 
@@ -21,7 +21,7 @@ For installation of SQL Server and SQL Server Management Studio see
 
 Clone the repository, build and publish the solution
 
-Popular Betfair api wrappers are linked in the [Wiki](https://github.com/Deruzala/Betfair-Racing-Database/wiki)
+Popular Betfair api wrappers linked in the [Wiki](https://github.com/Deruzala/Betfair-Racing-Database/wiki)
 
 Comments on data elements, columns, task scheduling and api endpoints in [dbo.RaceCard](https://github.com/Deruzala/Betfair-Racing-Database/blob/main/HorseRacing/dbo/Tables/RaceCard.sql)
 
