@@ -19,9 +19,13 @@ For installation of SQL Server and SQL Server Management Studio
 
 # Setup and api integration
 
+[Install Visual Studio Community 2019](https://visualstudio.microsoft.com/downloads/)
+
+Add the `Data storage and processing` package
+
 Clone the repository, build and publish the solution
 
-Popular Betfair api wrappers linked in the [Wiki](https://github.com/Deruzala/Betfair-Racing-Database/wiki)
+Documentation, resources and Betfair api wrappers in the [Wiki](https://github.com/Deruzala/Betfair-Racing-Database/wiki)
 
 Comments on data elements, columns, task scheduling and api endpoints in [dbo.RaceCard](https://github.com/Deruzala/Betfair-Racing-Database/blob/main/HorseRacing/dbo/Tables/RaceCard.sql)
 
