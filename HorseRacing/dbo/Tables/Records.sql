@@ -5,7 +5,6 @@
     [marketOpen]  DATETIME2 (3) NOT NULL,  -- time market was discovered
     [marketTypeID]BIGINT        NOT NULL,  -- marketType; win, place, other_place
     [selectionID] BIGINT        NOT NULL,
-    [horseID]     BIGINT        NOT NULL,
     [bidPlaced]   DATETIME2 (3) NOT NULL,  -- time bid placed
     [betId]       BIGINT        NOT NULL,  -- Betfair generated BetId
     [bidID]       BIGINT        NOT NULL,
@@ -18,6 +17,7 @@
     [MarketId]    BIGINT        NOT NULL,
     CONSTRAINT [PK_Records_ID] PRIMARY KEY CLUSTERED ([ID] ASC),
     CONSTRAINT [FK_Records_marketType] FOREIGN KEY ([marketTypeID]) REFERENCES [dbo].[marketType] ([ID]),
+    CONSTRAINT [FK_Records_horse] FOREIGN KEY ([selectionID]) REFERENCES [dbo].[horse] ([ID]),
     CONSTRAINT [FK_Records_bid] FOREIGN KEY ([bidID]) REFERENCES [dbo].[bid] ([ID]),
     CONSTRAINT [FK_Records_outcome] FOREIGN KEY ([outcomeID]) REFERENCES [dbo].[outcome] ([ID]),
     CONSTRAINT [FK_Records_Racecard] FOREIGN KEY ([ID]) REFERENCES [dbo].[RaceCard] ([ID]),
