@@ -30,7 +30,7 @@ CREATE TRIGGER [dbo].[TR_INSTEADOFINSERT_distance]
 
 		 -- if Meters is not provided in the insertion, we calculate the value
 		 UPDATE #CalculatedInserts
-			SET Meters = dbo.fn_ConvertDistanceStringToMeters(Name)
+			SET Meters = dbo.fn_ConvertStringDistanceToMeters(Name)
 		 WHERE Meters IS NULL
 
 		 -- if Furlongs is not provided in the insertion, we calculate the value

@@ -15,14 +15,15 @@
     [pnl]         REAL          NOT NULL,
     [netpnl]      REAL          NOT NULL,
     [EventId]     BIGINT        NOT NULL,
-    [MarketId]    BIGINT        NOT NULL,
+    [MarketId]    BIGINT        NOT NULL, -- strip the '1.' prefix from marketId before insertion
+    [RRaceCardId] BIGINT        NOT NULL, -- check reference to dbo.RaceCard
     CONSTRAINT [PK_Records_ID] PRIMARY KEY CLUSTERED ([ID] ASC),
     CONSTRAINT [FK_Records_marketType] FOREIGN KEY ([marketTypeID]) REFERENCES [dbo].[marketType] ([ID]),
     CONSTRAINT [FK_Records_selectionID] FOREIGN KEY ([horseID]) REFERENCES [dbo].[horse] ([ID]),
     CONSTRAINT [FK_Records_horse] FOREIGN KEY ([horseID]) REFERENCES [dbo].[horse] ([ID]),
     CONSTRAINT [FK_Records_bid] FOREIGN KEY ([bidID]) REFERENCES [dbo].[bid] ([ID]),
     CONSTRAINT [FK_Records_outcome] FOREIGN KEY ([outcomeID]) REFERENCES [dbo].[outcome] ([ID]),
-    CONSTRAINT [FK_Records_Racecard] FOREIGN KEY ([ID]) REFERENCES [dbo].[RaceCard] ([ID]),
+    CONSTRAINT [FK_Records_Racecard] FOREIGN KEY ([RRaceCardId]) REFERENCES [dbo].[RaceCard] ([ID]),
     CONSTRAINT [FK_Records_system] FOREIGN KEY ([systemID]) REFERENCES [dbo].[system] ([ID]),
     CONSTRAINT [ix_Records] UNIQUE NONCLUSTERED ([systemID] ASC, [MarketId] ASC, [selectionID] ASC)
 );

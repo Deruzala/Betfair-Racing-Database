@@ -79,16 +79,9 @@
     <Build Include="dbo\Tables\PlacePrice.sql" />
     <Build Include="dbo\Tables\Records.sql" />
     <Build Include="dbo\Tables\OtherPlace.sql" />
-    <Build Include="dbo\Views\RaceCard-view.sql" />
     <Build Include="dbo\Tables\odds.sql" />
-    <Build Include="fn_ConvertDistanceStringToMeters.sql" />
-    <Build Include="fn_ConvertStonesAndPoundsStringToKgs.sql" />
-    <Build Include="fn_GetAvgTickDrop.sql" />
-    <Build Include="fn_WinningDistanceStringToMeters.sql" />
-    <Build Include="dbo\Views\Place-Join.sql" />
     <Build Include="dbo\Tables\raceType.sql" />
     <Build Include="dbo\Tables\marketType.sql" />
-    <Build Include="dbo\Views\Records-Join.sql" />
   </ItemGroup>
   <ItemGroup>
     <PostDeploy Include="Scripts\TableData.PostDeployment.sql" />

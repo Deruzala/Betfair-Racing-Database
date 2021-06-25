@@ -13,3 +13,13 @@ C:\Users\aaron\source\repos\HorseRacing\HorseRacing\bin\Debug\HorseRacing.dll
 C:\Users\aaron\source\repos\HorseRacing\HorseRacing\bin\Debug\HorseRacing.pdb
 C:\Users\aaron\source\repos\HorseRacing\HorseRacing\obj\Debug\HorseRacing.dll
 C:\Users\aaron\source\repos\HorseRacing\HorseRacing\obj\Debug\HorseRacing.pdb
+C:\Users\aaron\Source\Repos\Betfair-Racing-Database\HorseRacing\bin\Debug\HorseRacing.dacpac
+C:\Users\aaron\Source\Repos\Betfair-Racing-Database\HorseRacing\bin\Debug\HorseRacing.dll
+C:\Users\aaron\Source\Repos\Betfair-Racing-Database\HorseRacing\bin\Debug\HorseRacing.pdb
+C:\Users\aaron\Source\Repos\Betfair-Racing-Database\HorseRacing\obj\Debug\HorseRacing.dll
+C:\Users\aaron\Source\Repos\Betfair-Racing-Database\HorseRacing\obj\Debug\HorseRacing.pdb
+C:\Users\aaron\Source\Repos\Betfair-Racing-Database\HorseRacing\obj\Debug\Model.xml
+C:\Users\aaron\Source\Repos\Betfair-Racing-Database\HorseRacing\obj\Debug\refactor.xml
+C:\Users\aaron\Source\Repos\Betfair-Racing-Database\HorseRacing\obj\Debug\postdeploy.sql
+C:\Users\aaron\Source\Repos\Betfair-Racing-Database\HorseRacing\obj\Debug\predeploy.sql
+C:\Users\aaron\Source\Repos\Betfair-Racing-Database\HorseRacing\obj\Debug\HorseRacing.sqlproj.AssemblyReference.cache
