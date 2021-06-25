@@ -62,7 +62,6 @@
     <Folder Include="dbo\Tables\" />
     <Folder Include="dbo\Views\" />
     <Folder Include="Scripts\" />
-    <Folder Include="dbo\Functions" />
   </ItemGroup>
   <ItemGroup>
     <Build Include="dbo\Tables\trainer.sql" />
@@ -83,27 +82,6 @@
     <Build Include="dbo\Tables\odds.sql" />
     <Build Include="dbo\Tables\raceType.sql" />
     <Build Include="dbo\Tables\marketType.sql" />
-    <Build Include="dbo\Functions\fn_ConvertKGsToLbs.sql" />
-    <Build Include="dbo\Functions\fn_ConvertLbsToKGs.sql" />
-    <Build Include="dbo\Functions\fn_ConvertStringDistanceToMeters.sql" />
-    <Build Include="dbo\Functions\fn_ConvertStringStonesAndPoundsToKGs.sql" />
-    <Build Include="dbo\Functions\fn_ConvertStringStonesAndPoundsToLbs.sql" />
-    <Build Include="dbo\Functions\fn_ConvertStringWinningDistanceToMeters.sql" />
-    <Build Include="dbo\Functions\fn_HorseRuns.sql" />
-    <Build Include="dbo\Functions\fn_HorseWins.sql" />
-    <Build Include="dbo\Functions\fn_JockeyRuns.sql" />
-    <Build Include="dbo\Functions\fn_JockeyWins.sql" />
-    <Build Include="dbo\Functions\fn_TickDropAvg.sql" />
-    <Build Include="dbo\Functions\fn_TrainerRuns.sql" />
-    <Build Include="dbo\Functions\fn_TrainerWins.sql" />
-    <Build Include="dbo\Views\Accounts.sql" />
-    <Build Include="dbo\Views\Join_PlacePrice.sql" />
-    <Build Include="dbo\Views\Join_RaceCard.sql" />
-    <Build Include="dbo\Views\Join_Records.sql" />
-    <Build Include="dbo\Views\snip_DatePart.sql" />
-    <Build Include="dbo\Views\snip_Returns.sql" />
-    <Build Include="dbo\TR_INSTEADOFINSERT_RaceCard.sql" />
-    <Build Include="dbo\TR_INSTEADOFUPDATE_RaceCard.sql" />
   </ItemGroup>
   <ItemGroup>
     <PostDeploy Include="Scripts\TableData.PostDeployment.sql" />
